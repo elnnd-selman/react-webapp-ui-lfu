@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap");
+.navbar1 {
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 13px 57.01px;
+  background-color: #192F59;
+  z-index: 20;
+}
+
+.navbar1-lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 100;
+  padding: 20px;
+  margin-left: -10px;
+  margin-top: -8px;
+  width: 110px;
+}
+
+.navbar1-lang:hover {
+  color: #192F59;
+  background-color: white;
+}
+
+.navbar1-lang-icon {
+  margin-top: 1px;
+  font-size: 22px;
+}
+
+.navbar1-lang-text {
+  margin-left: 10px;
+  position: relative;
+}
+
+.navbar1-lang-text-icon {
+  position: absolute;
+  left: 75px;
+  top: -2px;
+}
+
+.navbar1-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar1-list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar1-list-container-item {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  margin: 0 18px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar1-list-container-item:hover {
+  color: #192F59;
+  background-color: white;
+}
+
+.navbar1-media-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar1-media-link-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.navbar1-media-link-list-item {
+  font-size: 30px;
+  margin-right: 15px;
+  color: white;
+  padding: 0px;
+}
+
+.navbar1-media-link-list-item:hover {
+  color: #192F59;
+  background-color: white;
+}
+
+.navbar2 {
+  height: 80px;
+  -webkit-box-shadow: 4px 1px 7px grey;
+          box-shadow: 4px 1px 7px grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 13px 40.01px;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.678);
+}
+
+.navbar2-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+}
+
+.navbar2-list-container {
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.navbar2-list-container-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0px 20px;
+  color: #192F59;
+  margin: 0 18px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar2-list-container-item:hover {
+  background-color: #192F59;
+  color: white;
+}
+
+.navbar2-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar2-logo-self {
+  width: 400px;
+  height: 77px;
+}
+/*# sourceMappingURL=navbar.css.map */

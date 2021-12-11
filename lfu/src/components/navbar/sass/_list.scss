@@ -1,0 +1,26 @@
+.navbar1-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-container {
+        display: flex;
+
+        list-style: none;
+
+
+        &-item {
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+            margin: 0 18px;
+            font-family: 'Nanum Gothic', sans-serif;
+
+            &:hover {
+                color: #192F59;
+                background-color: white;
+
+            }
+        }
+    }
+}

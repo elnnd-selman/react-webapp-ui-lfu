@@ -1,0 +1,22 @@
+.navbar1-media-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+       &-item{
+           font-size: 30px;
+           margin-right: 15px;
+           color: white;
+            padding: 0px;
+           &:hover {
+              
+           color: #192F59;
+           background-color: white;
+
+        }
+       }
+    }
+}

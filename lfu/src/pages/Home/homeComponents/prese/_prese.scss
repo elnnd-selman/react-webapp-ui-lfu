@@ -1,0 +1,95 @@
+.hamu {
+    background-color: rgba(128, 128, 128, 0.35);
+}
+
+.prese {
+    height: 100vh;
+    width: 100%;
+
+    &-title {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        &-self {
+            margin-left: 72px;
+            font-size: 50px;
+            font-family: 'Newsreader', serif;
+        }
+    }
+
+    &-swiper {
+
+        height: 100%;
+        width: 100%;
+        padding: 40px;
+
+
+        margin: 0;
+
+
+        &-item {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &-info {
+                width: 50%;
+                text-align: center;
+                margin-left: 20px;
+
+                &-qo {
+                    font-size: 40px;
+                    padding: 90px;
+
+                }
+
+                &-name {
+                    margin-top: 50px;
+                    font-size: 40px;
+                    color: #192F59;
+                    position: relative;
+
+                    &::after {
+                        content: " ";
+
+                        background-color: #192F59;
+                        position: absolute;
+                        top: -10px;
+                        left: 33%;
+                        width: 325px;
+                        height: 2px;
+                    }
+                }
+
+                &-deg {
+                    font-size: 35px;
+                }
+
+            }
+
+            &-image {
+                padding: 20px;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &-fig {
+
+                    overflow: hidden;
+                    width: 70%;
+
+                    &-self {
+                        width: 100%;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "lfu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "prop-types": "^15.7.2",
+    "react-countup": "^4.3.3",
+    "react-iframe": "^1.8.0",
+    "react-player": "^2.9.0",
+    "react-transition-group": "^4.4.1",
+    "swiper": "^6.5.0"
+  }
+}

@@ -1,0 +1,111 @@
+.news-slider {
+
+overflow: hidden;
+
+    &-swiper {
+        height: 100%;
+        width: 100%;
+   
+
+        &-item {
+            background-color: blanchedalmond;
+            box-shadow: 1px 1px 10px grey;
+           height: 100%;
+
+            // border: 1px solid #192F59;
+            &-container {
+                background-color: #192F59;
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+
+                &-img {
+                    overflow: hidden;
+                    width: 100%;
+                    height: 35%;
+                    background-color: black;
+
+                    &-self {
+                        width: 100%;
+                        height: 100%;
+                        transition: all .2s;
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: all .2s;
+                        }
+                    }
+                }
+
+                &-info {
+                    padding: 15px 20px;
+
+                    &-title {
+                        color: white;
+                        font-size: 22px;
+                    }
+
+                    &-text {
+                        margin-top: 5px;
+                        color: white;
+                        font-size: 20px;
+                        font-weight: 100;
+                    }
+
+                    &-date {
+                        display: flex;
+                        align-items: center;
+                        font-size: 24px;
+                        margin-bottom: 0;
+                        position: absolute;
+                        top: 59%;
+                        color: white;
+                        left: 20px;
+
+                        ::after {
+                            content: " ";
+                            width: 280px;
+                            height: 1px;
+                            position: absolute;
+                            background-color: #ffffff;
+                            top: -9px;
+                            left: -20px;
+                        }
+
+                        &-icon {
+                            margin-right: 10px;
+                        }
+                    }
+
+                    &-btn {
+                        position: absolute;
+                        top: 58%;
+                        right: 0%;
+                        width: 200px;
+                        background-color: #ffffff;
+                        padding: 10px;
+                        outline: none;
+                        border: none;
+
+                        &-a {
+                            text-decoration: none;
+                            font-size: 25px;
+                            border: none;
+                            color: #192F59;
+                            font-weight: 200;
+
+                            &>p {
+                                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                font-size: 20px;
+                                font-weight: 100;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,146 @@
+.Apply {
+
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50Vh 50Vh;
+    color: white;
+
+    &-text {
+        z-index: 20;
+        display: flex;
+
+        &-title {
+            flex: 1;
+            text-align: start;
+            margin-top: 170px;
+            margin-left: 90px;
+
+
+            &-1 {
+                font-size: 55px;
+                font-family: 'Roboto', sans-serif;
+                color: #4DBBEB;
+            }
+
+            &-2 {
+                margin-top: 10px;
+                font-size: 30px;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+        &-btn {
+            background-color: #4DBBEB;
+            padding: 15px 25px;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+            margin-top: 30px;
+            transition: all .2s;
+            outline: none;
+            &:hover{
+                transform: scale(.95);
+                background-color: #4dbcebbd;
+                transition: all .2s;
+            }
+        }
+
+        &-paragraph {
+            margin-right: 90px;
+            padding: 0px 0px 0px 0px;
+            flex: 1;
+            font-size: 35px;
+            margin-top: 190px;
+            font-family: 'Roboto', sans-serif;
+            text-align: justify;
+
+        }
+    }
+
+    &-grid {
+        margin-top: 150px;
+        z-index: 20;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 10px 45px;
+
+        &-item {
+
+            position: relative;
+            padding: 20px;
+            width: 350px;
+            height: 250px;
+            background-color: rgba(255, 255, 255, 0.768);
+
+            &-icon {
+                font-size: 72px;
+                color: #192F59;
+
+                &-image {
+                    width: 100px;
+
+                    padding: 0;
+                    margin: 0;
+
+                }
+            }
+
+            &-title {
+                margin-top: 30px;
+                color: #000;
+
+                &-shaz {
+                    color: #000;
+                }
+            }
+
+            &-more {
+                font-size: 25px;
+                position: absolute;
+                bottom: 25px;
+                left: 50%;
+                transform: translate(-50%);
+                color: #192F59;
+
+            }
+
+            transition: all .4s;
+
+            &:hover {
+                transform: scale(1.04);
+                transition: all .4s;
+            }
+        }
+    }
+}
+
+
+
+.BGSECC {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+    background: rgba(0, 0, 0, 0.844);
+    z-index: 15;
+}
+
+.BGIMAGEE {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+    z-index: 10;
+    overflow: hidden;
+    background-color: #ff0000;
+
+    &-SS {
+        width: 100%;
+
+    }
+
+
+}

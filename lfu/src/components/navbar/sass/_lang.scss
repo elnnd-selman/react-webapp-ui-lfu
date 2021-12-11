@@ -1,0 +1,35 @@
+.navbar1-lang {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: -8px;
+    width: 110px;
+    &:hover {
+              
+        color: #192F59;
+        background-color: white;
+
+     }
+    &-icon {
+        margin-top: 1px;
+        font-size: 22px;
+    }
+
+    &-text {
+        margin-left: 10px;
+        // display: flex;
+        // align-items: center;
+        position: relative;
+    &-icon{
+        position: absolute;
+        left: 75px;
+        top:-2px;
+    }
+
+    }
+}

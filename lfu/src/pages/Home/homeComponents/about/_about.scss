@@ -1,0 +1,115 @@
+.about {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50Vh 50Vh;
+    color: white;
+
+    &-text {
+        z-index: 20;
+        display: flex;
+
+        &-title {
+            flex: 1;
+            text-align: start;
+            margin-top: 170px;
+            margin-left: 90px;
+
+            &-1 {
+                font-size: 55px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            &-2 {
+                font-size: 30px;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+        &-paragraph {
+            margin-right: 90px;
+            padding: 0px 0px 0px 0px;
+            flex: 1;
+            font-size: 35px;
+            margin-top: 180px;
+            font-family: 'Roboto', sans-serif;
+            text-align: justify;
+
+        }
+    }
+
+
+    &-anime {
+        z-index: 20;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    &-anim {
+        margin-top: 50px;
+        text-align: center;
+
+        &-container {
+            padding-bottom: 100px;
+            &-secu {
+                border: 1px solid #4DBBEB;
+                width: 230px;
+                height: 230px;
+                transform: rotate(45deg);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #4dbceb4d;
+
+                &-icon {
+                    transform: rotate(-45deg);
+                    font-size: 100px;
+                    color: white;
+                }
+            }
+
+            &-num {
+                margin-top: 90px;
+                font-size: 70px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 200;
+
+            }
+
+            &-title {
+                font-size: 35px;
+                font-family: 'Roboto', sans-serif;
+
+
+            }
+        }
+    }
+}
+
+.BGSEC {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(115deg, rgba(2, 0, 36, 0.898) 0%, rgba(17, 34, 65, 0.919) 45%, rgba(7, 30, 72, 0.919) 85%, rgba(41, 90, 99, 1) 100%);
+    z-index: 15;
+}
+
+.BGIMAGE {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1000;
+
+    z-index: 10;
+    overflow: hidden;
+
+    &S {
+        width: 100%;
+    }
+}
